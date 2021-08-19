@@ -8,7 +8,7 @@ trigger:
 #     endpoint: Devsec00ps
 
 extends:
-  template: secret-scanning/secret-scanning-extends.yml
+  template: secret-scanning-extends.yml
   parameters:
     buildStageName: build
     # use steps template or job template for for build
