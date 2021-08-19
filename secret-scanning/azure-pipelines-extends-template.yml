@@ -1,6 +1,5 @@
 trigger:
   - main
-  
 # resources:
 #   repositories:
 #   - repository: templates
@@ -13,10 +12,10 @@ extends:
   parameters:
     buildStageName: build
     # use steps template or job template for for build
-    buildJobs:
-    - template: secret-scanning/sample-build-job.yml@templates
-      parameters:
-        whatToBuild: 'Hello world'
+    # buildJobs:
+    # - template: secret-scanning/sample-build-job.yml@templates
+    #   parameters:
+    #     whatToBuild: 'Hello world'
     # buildSteps:
     # - template: secret-scanning/sample-build-steps.yml@templates
     #   parameters:
