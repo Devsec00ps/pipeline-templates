@@ -17,10 +17,10 @@ extends:
     - template: secret-scanning/sample-build-job.yml@templates
       parameters:
         whatToBuild: 'Hello world'
-    buildSteps:
-    - template: secret-scanning/sample-build-steps.yml@templates
-      parameters:
-        whatToBuild: 'Hello world'
+    # buildSteps:
+    # - template: secret-scanning/sample-build-steps.yml@templates
+    #   parameters:
+    #     whatToBuild: 'Hello world'
     # deployStages:
     # - stage: dev
     #   displayName: deploy to dev
